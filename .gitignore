@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Secrets — never commit connection strings, secrets, or tenant details
+*.env
+.env
+secrets.*
+*.secret
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
